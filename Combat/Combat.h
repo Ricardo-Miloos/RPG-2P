@@ -24,6 +24,7 @@ public:
     void doCombat();
     void addParticipant(Character *participant);
     string toString();
+    void displayHealth();
 };
 
 

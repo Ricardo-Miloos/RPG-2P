@@ -11,11 +11,14 @@ using namespace std;
 class Character {
 protected:
     string name;
+    int maxHealth;
     int health;
     int attack;
     int defense;
     int speed;
     bool isPlayer;
+    bool isDefending;
+
 public:
     Character(string _name, int _health, int _attack, int _defense, int _speed, bool _isPlayer);
 
@@ -25,10 +28,12 @@ public:
     //TODO: Implementar metodo de defensa
     //Incrementar la defensa un 20% solo por el turno actual
     void defend();
+    void resetDefense();
 
     bool flee(Character* target);
     string getName();
     int getHealth();
+    int getMaxHealth();
     int getAttack();
     int getDefense();
     bool getIsPlayer();

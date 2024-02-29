@@ -4,9 +4,9 @@
 #include "Combat/Combat.h"
 
 int main() {
-    Player *player = new Player("Victor", 40, 10, 4, 3);
-    Enemy *enemy = new Enemy("Goblin", 15, 6, 2, 5, 10);
-    Enemy *enemy2 = new Enemy("Orc", 15, 6, 2, 5, 10);
+    Player *player = new Player("Diego Luna", 40, 10, 4, 3);
+    Enemy *enemy = new Enemy("Prefecto del L", 15, 6, 2, 5, 10);
+    Enemy *enemy2 = new Enemy("Maestra de HCI", 18, 8, 3, 5, 10);
 
     vector<Character*> participants;
 
