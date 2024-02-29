@@ -12,12 +12,12 @@ Character::Character(string _name, int _health, int _attack, int _defense, int _
     isPlayer = _isPlayer;
 }
 void Character::defend() {
-    // Incrementar la defensa en un 20% solo por el turno actual
+    // Incrementar la defensa en un 20% solo por el turno actual.
     defense = static_cast<int>(defense * 1.2);
     isDefending = true;
 }
 
-//restablecer la defensa al valor original al inicio de cada turno
+//se restablece la defensa al valor original al inicio de cada turno
 void Character::resetDefense() {
     defense = static_cast<int>(defense / 1.2);
     isDefending = false;
