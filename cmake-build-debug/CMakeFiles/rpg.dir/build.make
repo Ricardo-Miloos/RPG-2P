@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files (x86)\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "E:\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files (x86)\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "E:\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG
+CMAKE_SOURCE_DIR = "C:\POO\rpg 3ra act\RPG_2P_23310170"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\POO\rpg 3ra act\RPG_2P_23310170\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/rpg.dir/depend.make
@@ -69,88 +69,88 @@ include CMakeFiles/rpg.dir/progress.make
 include CMakeFiles/rpg.dir/flags.make
 
 CMakeFiles/rpg.dir/main.cpp.obj: CMakeFiles/rpg.dir/flags.make
-CMakeFiles/rpg.dir/main.cpp.obj: E:/Almacenamiento/C++/P.O.O/Practica_3_Juego/2P-RPG/main.cpp
+CMakeFiles/rpg.dir/main.cpp.obj: C:/POO/rpg\ 3ra\ act/RPG_2P_23310170/main.cpp
 CMakeFiles/rpg.dir/main.cpp.obj: CMakeFiles/rpg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rpg.dir/main.cpp.obj"
-	"D:\Program Files (x86)\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rpg.dir/main.cpp.obj -MF CMakeFiles\rpg.dir\main.cpp.obj.d -o CMakeFiles\rpg.dir\main.cpp.obj -c E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\POO\rpg 3ra act\RPG_2P_23310170\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rpg.dir/main.cpp.obj"
+	"E:\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rpg.dir/main.cpp.obj -MF CMakeFiles\rpg.dir\main.cpp.obj.d -o CMakeFiles\rpg.dir\main.cpp.obj -c "C:\POO\rpg 3ra act\RPG_2P_23310170\main.cpp"
 
 CMakeFiles/rpg.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/rpg.dir/main.cpp.i"
-	"D:\Program Files (x86)\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\main.cpp > CMakeFiles\rpg.dir\main.cpp.i
+	"E:\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\POO\rpg 3ra act\RPG_2P_23310170\main.cpp" > CMakeFiles\rpg.dir\main.cpp.i
 
 CMakeFiles/rpg.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/rpg.dir/main.cpp.s"
-	"D:\Program Files (x86)\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\main.cpp -o CMakeFiles\rpg.dir\main.cpp.s
+	"E:\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\POO\rpg 3ra act\RPG_2P_23310170\main.cpp" -o CMakeFiles\rpg.dir\main.cpp.s
 
 CMakeFiles/rpg.dir/Character/Character.cpp.obj: CMakeFiles/rpg.dir/flags.make
-CMakeFiles/rpg.dir/Character/Character.cpp.obj: E:/Almacenamiento/C++/P.O.O/Practica_3_Juego/2P-RPG/Character/Character.cpp
+CMakeFiles/rpg.dir/Character/Character.cpp.obj: C:/POO/rpg\ 3ra\ act/RPG_2P_23310170/Character/Character.cpp
 CMakeFiles/rpg.dir/Character/Character.cpp.obj: CMakeFiles/rpg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rpg.dir/Character/Character.cpp.obj"
-	"D:\Program Files (x86)\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rpg.dir/Character/Character.cpp.obj -MF CMakeFiles\rpg.dir\Character\Character.cpp.obj.d -o CMakeFiles\rpg.dir\Character\Character.cpp.obj -c E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\Character\Character.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\POO\rpg 3ra act\RPG_2P_23310170\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rpg.dir/Character/Character.cpp.obj"
+	"E:\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rpg.dir/Character/Character.cpp.obj -MF CMakeFiles\rpg.dir\Character\Character.cpp.obj.d -o CMakeFiles\rpg.dir\Character\Character.cpp.obj -c "C:\POO\rpg 3ra act\RPG_2P_23310170\Character\Character.cpp"
 
 CMakeFiles/rpg.dir/Character/Character.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/rpg.dir/Character/Character.cpp.i"
-	"D:\Program Files (x86)\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\Character\Character.cpp > CMakeFiles\rpg.dir\Character\Character.cpp.i
+	"E:\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\POO\rpg 3ra act\RPG_2P_23310170\Character\Character.cpp" > CMakeFiles\rpg.dir\Character\Character.cpp.i
 
 CMakeFiles/rpg.dir/Character/Character.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/rpg.dir/Character/Character.cpp.s"
-	"D:\Program Files (x86)\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\Character\Character.cpp -o CMakeFiles\rpg.dir\Character\Character.cpp.s
+	"E:\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\POO\rpg 3ra act\RPG_2P_23310170\Character\Character.cpp" -o CMakeFiles\rpg.dir\Character\Character.cpp.s
 
 CMakeFiles/rpg.dir/Player/Player.cpp.obj: CMakeFiles/rpg.dir/flags.make
-CMakeFiles/rpg.dir/Player/Player.cpp.obj: E:/Almacenamiento/C++/P.O.O/Practica_3_Juego/2P-RPG/Player/Player.cpp
+CMakeFiles/rpg.dir/Player/Player.cpp.obj: C:/POO/rpg\ 3ra\ act/RPG_2P_23310170/Player/Player.cpp
 CMakeFiles/rpg.dir/Player/Player.cpp.obj: CMakeFiles/rpg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/rpg.dir/Player/Player.cpp.obj"
-	"D:\Program Files (x86)\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rpg.dir/Player/Player.cpp.obj -MF CMakeFiles\rpg.dir\Player\Player.cpp.obj.d -o CMakeFiles\rpg.dir\Player\Player.cpp.obj -c E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\Player\Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\POO\rpg 3ra act\RPG_2P_23310170\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/rpg.dir/Player/Player.cpp.obj"
+	"E:\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rpg.dir/Player/Player.cpp.obj -MF CMakeFiles\rpg.dir\Player\Player.cpp.obj.d -o CMakeFiles\rpg.dir\Player\Player.cpp.obj -c "C:\POO\rpg 3ra act\RPG_2P_23310170\Player\Player.cpp"
 
 CMakeFiles/rpg.dir/Player/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/rpg.dir/Player/Player.cpp.i"
-	"D:\Program Files (x86)\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\Player\Player.cpp > CMakeFiles\rpg.dir\Player\Player.cpp.i
+	"E:\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\POO\rpg 3ra act\RPG_2P_23310170\Player\Player.cpp" > CMakeFiles\rpg.dir\Player\Player.cpp.i
 
 CMakeFiles/rpg.dir/Player/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/rpg.dir/Player/Player.cpp.s"
-	"D:\Program Files (x86)\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\Player\Player.cpp -o CMakeFiles\rpg.dir\Player\Player.cpp.s
+	"E:\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\POO\rpg 3ra act\RPG_2P_23310170\Player\Player.cpp" -o CMakeFiles\rpg.dir\Player\Player.cpp.s
 
 CMakeFiles/rpg.dir/Enemy/Enemy.cpp.obj: CMakeFiles/rpg.dir/flags.make
-CMakeFiles/rpg.dir/Enemy/Enemy.cpp.obj: E:/Almacenamiento/C++/P.O.O/Practica_3_Juego/2P-RPG/Enemy/Enemy.cpp
+CMakeFiles/rpg.dir/Enemy/Enemy.cpp.obj: C:/POO/rpg\ 3ra\ act/RPG_2P_23310170/Enemy/Enemy.cpp
 CMakeFiles/rpg.dir/Enemy/Enemy.cpp.obj: CMakeFiles/rpg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/rpg.dir/Enemy/Enemy.cpp.obj"
-	"D:\Program Files (x86)\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rpg.dir/Enemy/Enemy.cpp.obj -MF CMakeFiles\rpg.dir\Enemy\Enemy.cpp.obj.d -o CMakeFiles\rpg.dir\Enemy\Enemy.cpp.obj -c E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\Enemy\Enemy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\POO\rpg 3ra act\RPG_2P_23310170\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/rpg.dir/Enemy/Enemy.cpp.obj"
+	"E:\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rpg.dir/Enemy/Enemy.cpp.obj -MF CMakeFiles\rpg.dir\Enemy\Enemy.cpp.obj.d -o CMakeFiles\rpg.dir\Enemy\Enemy.cpp.obj -c "C:\POO\rpg 3ra act\RPG_2P_23310170\Enemy\Enemy.cpp"
 
 CMakeFiles/rpg.dir/Enemy/Enemy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/rpg.dir/Enemy/Enemy.cpp.i"
-	"D:\Program Files (x86)\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\Enemy\Enemy.cpp > CMakeFiles\rpg.dir\Enemy\Enemy.cpp.i
+	"E:\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\POO\rpg 3ra act\RPG_2P_23310170\Enemy\Enemy.cpp" > CMakeFiles\rpg.dir\Enemy\Enemy.cpp.i
 
 CMakeFiles/rpg.dir/Enemy/Enemy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/rpg.dir/Enemy/Enemy.cpp.s"
-	"D:\Program Files (x86)\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\Enemy\Enemy.cpp -o CMakeFiles\rpg.dir\Enemy\Enemy.cpp.s
+	"E:\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\POO\rpg 3ra act\RPG_2P_23310170\Enemy\Enemy.cpp" -o CMakeFiles\rpg.dir\Enemy\Enemy.cpp.s
 
 CMakeFiles/rpg.dir/Combat/Combat.cpp.obj: CMakeFiles/rpg.dir/flags.make
-CMakeFiles/rpg.dir/Combat/Combat.cpp.obj: E:/Almacenamiento/C++/P.O.O/Practica_3_Juego/2P-RPG/Combat/Combat.cpp
+CMakeFiles/rpg.dir/Combat/Combat.cpp.obj: C:/POO/rpg\ 3ra\ act/RPG_2P_23310170/Combat/Combat.cpp
 CMakeFiles/rpg.dir/Combat/Combat.cpp.obj: CMakeFiles/rpg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/rpg.dir/Combat/Combat.cpp.obj"
-	"D:\Program Files (x86)\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rpg.dir/Combat/Combat.cpp.obj -MF CMakeFiles\rpg.dir\Combat\Combat.cpp.obj.d -o CMakeFiles\rpg.dir\Combat\Combat.cpp.obj -c E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\Combat\Combat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\POO\rpg 3ra act\RPG_2P_23310170\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/rpg.dir/Combat/Combat.cpp.obj"
+	"E:\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rpg.dir/Combat/Combat.cpp.obj -MF CMakeFiles\rpg.dir\Combat\Combat.cpp.obj.d -o CMakeFiles\rpg.dir\Combat\Combat.cpp.obj -c "C:\POO\rpg 3ra act\RPG_2P_23310170\Combat\Combat.cpp"
 
 CMakeFiles/rpg.dir/Combat/Combat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/rpg.dir/Combat/Combat.cpp.i"
-	"D:\Program Files (x86)\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\Combat\Combat.cpp > CMakeFiles\rpg.dir\Combat\Combat.cpp.i
+	"E:\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\POO\rpg 3ra act\RPG_2P_23310170\Combat\Combat.cpp" > CMakeFiles\rpg.dir\Combat\Combat.cpp.i
 
 CMakeFiles/rpg.dir/Combat/Combat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/rpg.dir/Combat/Combat.cpp.s"
-	"D:\Program Files (x86)\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\Combat\Combat.cpp -o CMakeFiles\rpg.dir\Combat\Combat.cpp.s
+	"E:\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\POO\rpg 3ra act\RPG_2P_23310170\Combat\Combat.cpp" -o CMakeFiles\rpg.dir\Combat\Combat.cpp.s
 
 CMakeFiles/rpg.dir/Combat/Action.cpp.obj: CMakeFiles/rpg.dir/flags.make
-CMakeFiles/rpg.dir/Combat/Action.cpp.obj: E:/Almacenamiento/C++/P.O.O/Practica_3_Juego/2P-RPG/Combat/Action.cpp
+CMakeFiles/rpg.dir/Combat/Action.cpp.obj: C:/POO/rpg\ 3ra\ act/RPG_2P_23310170/Combat/Action.cpp
 CMakeFiles/rpg.dir/Combat/Action.cpp.obj: CMakeFiles/rpg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/rpg.dir/Combat/Action.cpp.obj"
-	"D:\Program Files (x86)\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rpg.dir/Combat/Action.cpp.obj -MF CMakeFiles\rpg.dir\Combat\Action.cpp.obj.d -o CMakeFiles\rpg.dir\Combat\Action.cpp.obj -c E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\Combat\Action.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\POO\rpg 3ra act\RPG_2P_23310170\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/rpg.dir/Combat/Action.cpp.obj"
+	"E:\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rpg.dir/Combat/Action.cpp.obj -MF CMakeFiles\rpg.dir\Combat\Action.cpp.obj.d -o CMakeFiles\rpg.dir\Combat\Action.cpp.obj -c "C:\POO\rpg 3ra act\RPG_2P_23310170\Combat\Action.cpp"
 
 CMakeFiles/rpg.dir/Combat/Action.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/rpg.dir/Combat/Action.cpp.i"
-	"D:\Program Files (x86)\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\Combat\Action.cpp > CMakeFiles\rpg.dir\Combat\Action.cpp.i
+	"E:\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\POO\rpg 3ra act\RPG_2P_23310170\Combat\Action.cpp" > CMakeFiles\rpg.dir\Combat\Action.cpp.i
 
 CMakeFiles/rpg.dir/Combat/Action.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/rpg.dir/Combat/Action.cpp.s"
-	"D:\Program Files (x86)\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\Combat\Action.cpp -o CMakeFiles\rpg.dir\Combat\Action.cpp.s
+	"E:\CLion 2023.3.4\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\POO\rpg 3ra act\RPG_2P_23310170\Combat\Action.cpp" -o CMakeFiles\rpg.dir\Combat\Action.cpp.s
 
 # Object files for target rpg
 rpg_OBJECTS = \
@@ -174,7 +174,7 @@ rpg.exe: CMakeFiles/rpg.dir/build.make
 rpg.exe: CMakeFiles/rpg.dir/linkLibs.rsp
 rpg.exe: CMakeFiles/rpg.dir/objects1.rsp
 rpg.exe: CMakeFiles/rpg.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable rpg.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\POO\rpg 3ra act\RPG_2P_23310170\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable rpg.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\rpg.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -186,6 +186,6 @@ CMakeFiles/rpg.dir/clean:
 .PHONY : CMakeFiles/rpg.dir/clean
 
 CMakeFiles/rpg.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\cmake-build-debug E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\cmake-build-debug E:\Almacenamiento\C++\P.O.O\Practica_3_Juego\2P-RPG\cmake-build-debug\CMakeFiles\rpg.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\POO\rpg 3ra act\RPG_2P_23310170" "C:\POO\rpg 3ra act\RPG_2P_23310170" "C:\POO\rpg 3ra act\RPG_2P_23310170\cmake-build-debug" "C:\POO\rpg 3ra act\RPG_2P_23310170\cmake-build-debug" "C:\POO\rpg 3ra act\RPG_2P_23310170\cmake-build-debug\CMakeFiles\rpg.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/rpg.dir/depend
 

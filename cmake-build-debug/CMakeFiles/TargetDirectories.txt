@@ -1,3 +1,3 @@
-E:/Almacenamiento/C++/P.O.O/Practica_3_Juego/2P-RPG/cmake-build-debug/CMakeFiles/rpg.dir
-E:/Almacenamiento/C++/P.O.O/Practica_3_Juego/2P-RPG/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/Almacenamiento/C++/P.O.O/Practica_3_Juego/2P-RPG/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/POO/rpg 3ra act/RPG_2P_23310170/cmake-build-debug/CMakeFiles/rpg.dir
+C:/POO/rpg 3ra act/RPG_2P_23310170/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/POO/rpg 3ra act/RPG_2P_23310170/cmake-build-debug/CMakeFiles/rebuild_cache.dir

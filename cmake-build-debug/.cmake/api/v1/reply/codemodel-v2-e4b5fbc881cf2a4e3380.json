@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "E:/Almacenamiento/C++/P.O.O/Practica_3_Juego/2P-RPG/cmake-build-debug",
-		"source" : "E:/Almacenamiento/C++/P.O.O/Practica_3_Juego/2P-RPG"
+		"build" : "C:/POO/rpg 3ra act/RPG_2P_23310170/cmake-build-debug",
+		"source" : "C:/POO/rpg 3ra act/RPG_2P_23310170"
 	},
 	"version" : 
 	{

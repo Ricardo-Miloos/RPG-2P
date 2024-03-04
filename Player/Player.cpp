@@ -58,6 +58,7 @@ Action Player::takeAction(vector<Enemy*> enemies) {
     int action = 0;
     cout << "Select an action: " << endl << "1. Attack" << endl;
     cout << "2. Defend" << endl;
+    cout << "Your health:" << health << endl;
     //TODO: Validate input
     cin >> action;
     Action currentAction;
@@ -77,7 +78,6 @@ Action Player::takeAction(vector<Enemy*> enemies) {
             currentAction.action = [this](){
                 defend(this);
                 cout << name << " is defending!" << endl;
-                // Mostrar la defensa actualizada
                 cout << "Defense: " << defense << endl;
             };
             currentAction.speed = getSpeed();
